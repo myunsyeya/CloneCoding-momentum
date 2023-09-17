@@ -1,3 +1,30 @@
+body {
+  background-size: cover;
+  color:aliceblue;
+}
+
 .hidden {
   display: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100dvh;
+}
+
+.content {
+  padding: 3rem;
+  font-size: 2rem;
+  border-radius: 1rem;
+}
+
+.btn {
+  background-color:azure;
+}
+
+#weather {
+  margin: 0 auto;
 }
